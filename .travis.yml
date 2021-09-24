@@ -8,7 +8,8 @@ before_install:
   - docker build -t dineshkumar0919/dockerexample .
 
 after_success:
-  - docker build -t springdocker/sample1 .
+ # - docker build -t springdocker/sample1 .
+ - docker build -t dineshkumar0919/dockerexample .
   # Log in to the docker CLI
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
   # Take those images and push them to docker hub
