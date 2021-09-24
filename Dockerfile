@@ -11,7 +11,7 @@ ARG JAR_FILE=app.jar
 WORKDIR /opt/app
 
 # cp Sample-0.0.1-SNAPSHOT.jar /opt/app/app.jar
-#COPY ${JAR_FILE} app.jar
+COPY ${JAR_FILE} app.jar
 #COPY . .
 # java -jar /opt/app/app.jar
 CMD ["java","-jar","app.jar"]
