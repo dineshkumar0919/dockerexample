@@ -11,7 +11,7 @@ after_success:
  # - docker build -t springdocker/sample1 .
  #- docker build -t dineshkumar0919/dockerexample .
   # Log in to the docker CLI
-  - echo "$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" | docker login -u "dineshkumar0919@gmail.com" --password-stdin
+  - echo "$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" | docker login -u "dineshkumar0919@gmail.com" --password-stdin
   # Take those images and push them to docker hub
   - docker push dineshkumar0919/dockerexample2
 
