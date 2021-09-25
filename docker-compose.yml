@@ -2,6 +2,3 @@ version: "3"
 services:
   web:
     image: "dineshkumar0985/dockerexample2"
-    ports:
-      - "8080:80"
-      
