@@ -1,10 +1,11 @@
 {
 "AWSEBDockerrunVersion":"3",
 "Image":{
-	"Name":"dineshkumar0985/dockerexample2"
-},
-"Ports":[
-	{"ContainerPort":"8080"}
+	"Name":"dineshkumar0985/dockerexample2",
+	"Ports":[
+	{"ContainerPort":"8081"}
 ]
+}
+
 
 }
