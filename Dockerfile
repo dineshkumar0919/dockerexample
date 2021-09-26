@@ -9,7 +9,7 @@ ARG JAR_FILE=app2.jar
 
 # cd /opt/app
 WORKDIR /opt/app
-
+EXPOSE 80
 # cp Sample-0.0.1-SNAPSHOT.jar /opt/app/app2.jar
 COPY ${JAR_FILE} app2.jar
 #COPY . .
