@@ -1,0 +1,6 @@
+version: '3'
+services:
+  hello-world:
+    build: hello-world/
+  test-app:
+    build: .
