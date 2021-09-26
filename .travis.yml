@@ -18,10 +18,10 @@ after_success:
 deploy:
   provider: elasticbeanstalk
   region: 'ap-south-1'
-  app: 'Docker'
+  app: 'Docker-env-2'
   env: 'Docker-env-3'
   bucket_name: 'elasticbeanstalk-ap-south-1-116547797322'
-  bucket_path: 'Docker'
+  bucket_path: 'Docker-env-2'
   on:
     branch: main
   access_key_id: $AWS_ACCESS_KEY
